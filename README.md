@@ -2,6 +2,8 @@
 
 This Burp Suite extension allows you to modify HTTP responses based on specific criteria. It can replace parts of the response body or the entire body while keeping the headers intact.
 
+*Update: better use https://portswigger.net/bappstore/42680f96fc214513bc5211b3f25fd98b (source: https://github.com/LogicalTrust/BurpHttpMock)*
+
 ## Features
 
 - Modify HTTP responses for a specific host.
