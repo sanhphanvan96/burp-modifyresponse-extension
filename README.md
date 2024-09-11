@@ -36,6 +36,14 @@ This Burp Suite extension allows you to modify HTTP responses based on specific 
 
 ```python
 # Configuration constants
+ TARGET_HOST = "example.com"
+ STRING_TO_REPLACE = None
+ REPLACEMENT_STRING = "<head>The content has been modified!</head>"
+```
+
+```python
+# Configuration constants
 TARGET_HOST = "example.com"
 STRING_TO_REPLACE = "<head>"
 REPLACEMENT_STRING = "<head><script>alert(1)</script>"
+```
